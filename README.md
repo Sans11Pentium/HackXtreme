@@ -73,8 +73,7 @@ https://github.com/Sans11Pentium/HackXtreme/assets/72064462/5b962089-f58b-43c5-a
 
 https://github.com/Sans11Pentium/HackXtreme/assets/72064462/06e5e531-347a-4afe-b401-bd5558bcefda
 
-https://github.com/Sans11Pentium/HackXtreme/assets/72064462/ae1f1ce8-f654-4cb6-b31e-5d10457809f8
-
+https://github.com/Sans11Pentium/HackXtreme/assets/72064462/1b70ad96-04eb-4e11-9fbe-da1a2f1774b1
 
 
 
