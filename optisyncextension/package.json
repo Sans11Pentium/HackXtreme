@@ -1,0 +1,156 @@
+{
+  "name": "optisyncextension",
+  "displayName": "OptiSyncExtension",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "optisyncextension.generateDocstring",
+        "title": "Generate Documentation"
+      },
+      {
+        "command": "optisyncextension.optimiseCode",
+        "title": "Optimise Code"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorHasSelection && editorLangId =~ /^typescript$|^python$|^php$|^java$|^javascript$/",
+          "command": "optisyncextension.generateDocstring",
+          "group": "navigation"
+        },
+        {
+          "when": "editorHasSelection && editorLangId =~ /^typescript$|^python$|^php$|^java$|^javascript$/",
+          "command": "optisyncextension.optimiseCode",
+          "group": "navigation"
+        }
+      ]
+    },
+    "configuration": [
+      {
+        "id": "docstring-templates",
+        "title": "Docstring Configurations",
+        "order": 3,
+        "properties": {
+          "optisync.python.startDocstringToken": {
+            "type": "string",
+            "default": "'''",
+            "markdownDescription": "Token to indicate the start of a Python docstring.",
+            "order": 0
+          },
+          "optisync.python.endDocstringToken": {
+            "type": "string",
+            "default": "'''",
+            "markdownDescription": "Token to indicate the end of a Python docstring.",
+            "order": 1
+          },
+          "optisync.python.docstringTemplate": {
+            "type": "integer",
+            "default": 0,
+            "markdownDescription": "Template for Python Docstring.",
+            "enum": [
+              0,
+              1
+            ],
+            "enumDescriptions": [
+              "Parameters\n    ----------\n    array : list\n        The array to be sorted.\n\n    Returns\n    -------\n    list\n        The sorted array.\n\n    Examples\n    --------\n    >>> bubble_sort([3, 2, 1])\n    [1, 2, 3]",
+              "Parameters:\n        array(list): The array to be sorted.\n\n    Returns:\n        list: The sorted array.\n\n    Examples: \n        >>> bubble_sort([3, 2, 1])\n        [1, 2, 3]"
+            ],
+            "order": 2
+          },
+          "optisync.javascript.startDocstringToken": {
+            "type": "string",
+            "default": "/**",
+            "markdownDescription": "Token to indicate the start of a JavaScript docstring.",
+            "order": 3
+          },
+          "optisync.javascript.endDocstringToken": {
+            "type": "string",
+            "default": "*/",
+            "markdownDescription": "Token to indicate the end of a JavaScript docstring.",
+            "order": 4
+          },
+          "optisync.javascript.docstringTemplate": {
+            "type": "integer",
+            "default": 0,
+            "markdownDescription": "Template for JavaScript Docstring.",
+            "enum": [
+              0,
+              1,
+              3
+            ],
+            "enumDescriptions": [
+              "Parameters\n    ----------\n    array : list\n        The array to be sorted.\n\n    Returns\n    -------\n    list\n        The sorted array.\n\n    Examples\n    --------\n    >>> bubble_sort([3, 2, 1])\n    [1, 2, 3]",
+              "Parameters:\n        array(list): The array to be sorted.\n\n    Returns:\n        list: The sorted array.\n\n    Examples: \n        >>> bubble_sort([3, 2, 1])\n        [1, 2, 3]",
+              "    * @param {Array} inputArr - An array of numbers\n    * @returns {Array} - The sorted array\n    * @description - This function sorts an array of numbers using the insertion sort algorithm\n    * @example\n    * // returns [1, 2, 3]\n    * bubble_sort([3, 2, 1])"
+            ],
+            "order": 5
+          },
+          "optisync.typescript.startDocstringToken": {
+            "type": "string",
+            "default": "/**",
+            "markdownDescription": "Token to indicate the start of a TypeScript docstring.",
+            "order": 6
+          },
+          "optisync.typescript.endDocstringToken": {
+            "type": "string",
+            "default": "*/",
+            "markdownDescription": "Token to indicate the end of a TypeScript docstring.",
+            "order": 7
+          },
+          "optisync.typescript.docstringTemplate": {
+            "type": "integer",
+            "default": 0,
+            "markdownDescription": "Template for TypeScript Docstring.",
+            "enum": [
+              0,
+              1,
+              3
+            ],
+            "enumDescriptions": [
+              "Parameters\n    ----------\n    array : list\n        The array to be sorted.\n\n    Returns\n    -------\n    list\n        The sorted array.\n\n    Examples\n    --------\n    >>> bubble_sort([3, 2, 1])\n    [1, 2, 3]",
+              "Parameters:\n        array(list): The array to be sorted.\n\n    Returns:\n        list: The sorted array.\n\n    Examples: \n        >>> bubble_sort([3, 2, 1])\n        [1, 2, 3]",
+              "    * @param {Array} inputArr - An array of numbers\n    * @returns {Array} - The sorted array\n    * @description - This function sorts an array of numbers using the insertion sort algorithm\n    * @example\n    * // returns [1, 2, 3]\n    * bubble_sort([3, 2, 1])"
+            ],
+            "order": 8
+          }
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.2",
+    "@types/node": "^18.18.3",
+    "@types/vscode": "^1.82.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "@vscode/test-electron": "^2.3.4",
+    "eslint": "^8.50.0",
+    "glob": "^10.3.3",
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@google-ai/generativelanguage": "^1.1.0",
+    "axios": "^1.5.1",
+    "google-auth-library": "^9.1.0"
+  }
+}
