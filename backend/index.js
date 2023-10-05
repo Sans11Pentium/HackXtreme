@@ -1,4 +1,4 @@
-const connectToMongodb = require("./src/v1/services/mongodb");
+const connectToMongodb = require("./src/v1/services/mongoDB");
 var winston = require("./src/v1/configs/winston");
 const express = require("express");
 const cors = require("cors");
