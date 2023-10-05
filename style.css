@@ -1,0 +1,397 @@
+*{
+   margin:0;
+   padding : 0;
+   font-family: 'Roboto', sans-serif;
+   
+}
+.navbar{
+   height:105px;
+   width:100%;
+   background-color: #145DA0;
+   display: flex;
+   justify-content: space-between;
+}
+.logo{
+   margin-bottom:2rem;
+}
+.logo-slogan{
+   margin-left: 2rem;
+}
+.links a{
+   color:white;
+   text-decoration: none;
+   font-size: 1.1rem;
+}
+.links{
+   height:80px;
+   width:500px;
+   display: flex;
+   justify-content: space-between;
+   margin: 3.5rem 1rem 0 0;
+}
+.info1-text{
+   height:400px;
+   width:400px;
+   margin-right:10rem;
+   line-height: 2rem;
+   margin-top:2.5rem;
+   text-align: center;
+   font-size: 1.2rem;
+   color:#2E8BC0;
+}
+.info1{
+   display: flex;
+   justify-content: center;
+   background-color: #0C2D48;
+   border-bottom: 1px solid white;
+}
+.info1-img{
+   margin-top: 4rem;
+}
+.info2-text{
+   margin-left:5rem;
+}
+.desktop-2, .desktop-2 * {
+    box-sizing: border-box;
+    }
+.desktop-2 {
+   background: #ffffff;
+    width: 1440px;
+    height: 3963px;
+    position: relative;
+    overflow: hidden;
+   }
+
+.rectangle-7 {
+   background-color: #c7efb3;
+    width: 1440px;
+    height: 137px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.code-crafters {
+   color: #000000;
+    text-align: left;
+    font: 400 36px 'Inknut Antiqua', sans-serif;
+    position: absolute;
+    left: 574px;
+   top: 24px;
+    width: 486px;
+    height: 66px;
+   }
+
+.home {
+   color: #000000;
+    text-align: left;
+    font: 400 28px 'Inder', sans-serif;
+    position: absolute;
+    left: 780px;
+   top: 156px;
+    width: 240px;
+    height: 87px;
+   }
+
+.about {
+   color: #000000;
+    text-align: left;
+    font: 400 28px 'Inder', sans-serif;
+    position: absolute;
+    left: 932px;
+   top: 156px;
+   }
+
+.login {
+   color: #000000;
+    text-align: left;
+    font: 400 28px 'Inder', sans-serif;
+    position: absolute;
+    left: 1070px;
+   top: 156px;
+   }
+
+.help-support {
+   color: #000000;
+    text-align: left;
+    font: 400 28px 'Inder', sans-serif;
+    position: absolute;
+    left: 1172px;
+   top: 156px;
+   }
+
+.image-6 {
+   width: 614px;
+    height: 346px;
+    position: absolute;
+    left: 763px;
+   top: 297px;
+   }
+
+.transforming-development-efficiency {
+   color: #000000;
+    text-align: left;
+    font: 400 36px 'Inder', sans-serif;
+    position: absolute;
+    left: 150px;
+   top: 266px;
+    width: 405px;
+    height: 100px;
+    text-align: center;
+    border: 3px solid #c7efb3;
+    
+   }
+
+.we-understand-the-intricate-challenges-developers-face-daily-from-code-optimization-to-documentation-creation-that-s-why-we-ve-developed-a-suite-of-tools-that-work-tirelessly-in-the-background-to-make-your-coding-journey-smoother-more-efficient-and-more-collaborative {
+   color: #000000;
+    text-align: left;
+    font: 400 28px 'Outfit', sans-serif;
+    position: absolute;
+    left: 144px;
+   top: 395px;
+    width: 420px;
+    height: 300px;
+    text-align: center;
+    font-size: 1.2rem;
+   }
+
+.try-your-first-code-for-optimization {
+   color: #000000;
+    text-align: left;
+    font: 400 28px 'Orelega One', sans-serif;
+    position: absolute;
+    left: 140px;
+   top: 1167px;
+    width: 710px;
+    height: 67px;
+   }
+
+.rectangle-8 {
+   background: #f8f8f8;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 893px;
+    height: 558px;
+    position: absolute;
+    left: 267px;
+   top: 1226px;
+   }
+
+.rectangle-9 {
+   background: #d9d9d9;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 893px;
+    height: 42px;
+    position: absolute;
+    left: 267px;
+   top: 1226px;
+   }
+
+.your-input-here {
+   color: #000000;
+    text-align: left;
+    font: 400 28px 'Outfit', sans-serif;
+    position: absolute;
+    left: 311px;
+   top: 1226px;
+    width: 373px;
+    height: 27px;
+   }
+
+.optimized-code {
+   color: #000000;
+    text-align: left;
+    font: 400 28px 'Outfit', sans-serif;
+    position: absolute;
+    left: 165px;
+   top: 1861px;
+    width: 355px;
+    height: 68px;
+   }
+
+.rectangle-10 {
+   background: #f4f4f4;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 881px;
+    height: 464px;
+    position: absolute;
+    left: 279px;
+   top: 1929px;
+   }
+
+.rectangle-11 {
+   background: #3a6cec;
+    border-radius: 10px;
+    width: 470px;
+    height: 72px;
+    position: absolute;
+    left: 485px;
+   top: 2434px;
+   }
+
+.add-code-to-vs-code {
+   color: #ffffff;
+    text-align: center;
+    font: 400 28px 'Irish Grover', sans-serif;
+    border-radius: 10px;
+    border: none;
+    box-shadow: lightgrey 5px 5px;
+    position: absolute;
+    left: 485px;
+   top: 2434px;
+    width: 470px;
+    height: 72px;
+    background-color: #0c73ec;
+    cursor: pointer;
+   }
+.add-code-to-vs-code :hover{
+    background-color: #18153c;
+    box-shadow: 0px 0px;
+}
+
+.rectangle-12 {
+   background: #18153c;
+    width: 1289px;
+    height: 693px;
+    position: absolute;
+    left: 75px;
+   top: 2701px;
+   }
+
+.one-discord-bot-for-everything {
+   color: #ffffff;
+    text-align: left;
+    font: 700 48px 'Kadwa', sans-serif;
+    position: absolute;
+    left: 167px;
+   top: 2740px;
+    width: 493px;
+    height: 185px;
+   }
+
+.code-optimization-made-effortless {
+   color: #000000;
+    text-align: left;
+    font: 700 28px 'Outfit', sans-serif;
+    position: absolute;
+    left: 800px;
+   top: 769px;
+    width: 514px;
+    height: 40px;
+   }
+
+.with-a-single-click-you-can-apply-suggested-optimizations-to-your-code-significantly-improving-its-performance-and-readability-code-crafters-leverages-the-intelligence-of-open-ai-codex-to-offer-context-aware-recommendations-tailored-to-your-unique-coding-style-it-s-like-having-a-personal-code-mentor-at-your-fingertips {
+   color: #000000;
+    text-align: left;
+    font: 400 28px 'Overlock', sans-serif;
+    position: absolute;
+    left: 763px;
+   top: 825px;
+    width: 558px;
+    height: 263px;
+   }
+
+.code-crafters-goes-beyond-your-code-editor-by-seamlessly-integrating-with-discord-it-s-not-just-about-writing-better-code-it-s-about-collaborating-effectively-with-your-team-share-code-snippets-directly-with-your-colleagues-enhancing-collaboration-without-leaving-your-coding-environment-receive-suggestions-for-code-optimization-from-your-teammates-all-within-the-comfort-of-your-favorite-development-tools {
+   color: #ffffff;
+    text-align: left;
+    font: 400 28px 'Inter', sans-serif;
+    position: absolute;
+    left: 178px;
+   top: 2964px;
+    width: 719px;
+    height: 292px;
+   }
+
+.image-8 {
+   width: 269px;
+    height: 238px;
+    position: absolute;
+    left: 990px;
+   top: 2889px;
+   }
+
+.rectangle-13 {
+   background: #0c73ec;
+    border-radius: 10px;
+    width: 321px;
+    height: 75px;
+    position: absolute;
+    left: 360px;
+   top: 3269px;
+   }
+
+.add-to-discord {
+   color: #ffffff;
+    text-align: center;
+    font: 700 28px 'Outfit', sans-serif;
+    background: #0c73ec;
+    border-radius: 10px;
+    width: 321px;
+    height: 75px;
+    position: absolute;
+    left: 360px;
+   top: 3269px;
+   cursor: pointer;
+   box-shadow: 5px 5px rgb(65, 65, 94);
+   }
+
+.at-code-crafters-our-mission-is-to-enhance-your-productivity-foster-collaboration-and-simplify-your-coding-experience-join-us-on-this-journey-to-transform-the-way-you-code-one-line-at-a-time-welcome-to-a-future-where-coding-is-efficient-collaborative-and-enjoyable {
+   color: #000000;
+    text-align: left;
+    font: 300 28px 'Outfit', sans-serif;
+    position: absolute;
+    left: 196px;
+   top: 3484px;
+    width: 1084px;
+    height: 177px;
+   }
+
+.rectangle-14 {
+   background: #c7efb3;
+    width: 1440px;
+    height: 79px;
+    position: absolute;
+    left: 0px;
+   top: 3884px;
+   }
+
+.copyright-2023-code-crafters {
+   color: #000000;
+    text-align: left;
+    font: 700 18px 'Inter', sans-serif;
+    position: absolute;
+    left: 45px;
+   top: 3913px;
+    width: 302px;
+    height: 36px;
+   }
+
+.image-9 {
+   width: 36px;
+    height: 39px;
+    position: absolute;
+    left: 1362px;
+   top: 3904px;
+   }
+
+.image-10 {
+   width: 38px;
+    height: 42px;
+    position: absolute;
+    left: 1299px;
+   top: 3901px;
+   }
+
+.image-11 {
+   width: 44px;
+    height: 54px;
+    position: absolute;
+    left: 1216px;
+   top: 3895px;
+   }
+ 
