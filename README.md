@@ -1,7 +1,5 @@
 # OptiSync: Simplifying Code Optimization and Documentation
 
-![OptiSync Logo](link_to_logo.png)
-
 ## Introduction
 
 In the world of coding, developers often find themselves grappling with two significant challenges: optimizing code for efficiency and productivity while maintaining comprehensive documentation for future reference. These tasks can be time-consuming and require considerable effort. **OptiSync** is here to simplify and automate this process, revolutionizing your coding journey. With OptiSync, you can effortlessly optimize your code and enhance its documentation, making your development experience more efficient and future-proof.
