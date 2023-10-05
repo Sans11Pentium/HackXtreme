@@ -5,7 +5,7 @@ const optimiseCode = async (request, response) => {
     const { code } = request.body;
 
     const prompt =
-      "Optimize the following code snippet for performance and readability:" +
+      "Please optimize the given code snippet for both performance and readability. Provide the optimized code without any additional explanation or comments. Without the language identifier and backticks " +
       code;
     // get optimised Code from the PaLM API.
     const result = await palm(prompt);

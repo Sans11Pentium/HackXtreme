@@ -1,4 +1,4 @@
-const bcrypt = require('bcryptjs');
+ const bcrypt = require('bcryptjs');
 
 /**
   * @desc hash user password at the time of register using bcrypt
